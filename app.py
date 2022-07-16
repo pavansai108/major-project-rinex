@@ -2,7 +2,7 @@ import streamlit as st
 import joblib 
 
 #load the joblib model 
-model_nb = joblib.load('ds_salaries(1)(1)')
+model_nb = joblib.load('ds_salaries(1)')
 
 #user input 
 st.title("Employment experience level SE-Senior,EX-experienced,MI-medium")
